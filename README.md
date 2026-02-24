@@ -49,7 +49,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 ```bash
-sudo apt install -y git && git clone https://github.com/And3rSgan/wagrupos.git && cd automacao/installer && chmod +x install.sh install_primaria install_instancia scripts/*.sh && sudo ./install.sh
+sudo apt install -y git && git clone https://github.com/And3rSgan/installerzgestor.git && cd installerzgestor && chmod +x install.sh install_primaria install_instancia scripts/*.sh && sudo ./install.sh
 ```
 
 Escolha a opção **1** (Instalação primária). A instância será criada em `/home/deploy/NOME` (ex: `/home/deploy/gruposzap`).
